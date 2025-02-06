@@ -16,7 +16,12 @@ The questions from your notes today are below, please copy your answers them her
 1. Write your own function that takes the temperature in Fahrenheit as an argument and returns the Celcius equivalent. 
 
 ```{R}
+FA = 40
+F_to_C <- function(FA){
+  CEL <- ((FA - 32) * (5/9))
+  return(CEL)
 
+}
 
 ```
 
